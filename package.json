@@ -1,0 +1,31 @@
+{
+  "name": "cookie-test",
+  "version": "1.0.0",
+  "description": "Trying to find out why cookies are not being set on another project",
+  "main": "src/app.mjs",
+  "scripts": {
+    "dev": "node src/app.mjs --watch",
+    "run": "node src/app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubicon2/cookie-test.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/rubicon2/cookie-test/issues"
+  },
+  "homepage": "https://github.com/rubicon2/cookie-test#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.3.0",
+    "prettier": "^3.6.2"
+  }
+}
